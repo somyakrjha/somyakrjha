@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body {
+font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #dee2e6); /* Gradient background */
+    margin: 0;
+    width: 100%;
+}
+
+#header {
+    text-align: center;
+    background: rgb(63,241,238);
+    background: linear-gradient(90deg, rgba(63,241,238,1) 0%, rgba(221,81,81,1) 65%, rgba(62,51,249,1) 100%);
+    color: white;
+    font-size: 18px;
+    padding: 1px;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#header:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#ss {
+    color: #ffd700; /* Gold color for better visibility */
+}
+
+#bar {
+    background: linear-gradient(to right, #87e3fa, #5e9fff); /* Blue gradient for navigation */
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    color: #333; /* Dark Gray text color for better contrast */
+    padding: 15px;
+    font-weight: 400;
+}
+
+#bar a {
+    text-decoration: none;
+    color: #af1717;
+    transition: color 0.3s ease-in-out;
+    margin: 0 10px; /* Add spacing between links */
+}
+
+#bar a:hover {
+    color: #ff0000; /* Blue on hover */
+}
+
+#box {
+    max-width: 1300px; /* Adjust the maximum width according to your preference */
+    margin: 20px auto; /* Center the box on the page */
+    background: linear-gradient(to right, #ffffff, #f0f0f0); /* Lighter gradient for the box */
+    color: #333;
+    height: 300px;
+    border-radius: 15px; /* Increased border radius for a softer look */
+    overflow: hidden;
+    background-color: red;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increased box shadow for depth */
+}
+
+#page {
+    margin: 20px;
+    background: linear-gradient(to right, #f0f0f0, #d9d9d9); /* Lighter gradient for the page */
+    padding: 20px;
+    color: #333;
+    font-size: 18px;
+    border-radius: 10px;
+    height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#name {
+    width: 100%;
+    margin: 3px;
+    padding: 9px;
+    font-size: 16px;
+    border-radius: 9px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#name:hover,
+#name:active {
+    border: 1px solid #3494e6; /* Blue border on hover and active */
+}
+
+#bt {
+    background: linear-gradient(to right, #3494e6, #052a74); /* Blue gradient for the button */
+    border: none;
+    width: 100%;
+    color: white;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#bt:hover {
+    background: linear-gradient(to right, #052a74, #3494e6); /* Slightly darker blue on hover */
+}
+
+#dw {
+    margin: 23px;
+}
+
+#tet {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@media only screen and (max-width: 600px) {
+    #bar {
+        flex-direction: column; /* Stack links vertically on smaller screens */
+        align-items: center; /* Center links horizontally on smaller screens */
+    }
+
+    #bar a {         
+        margin: 10px 0; /* Add spacing between links on smaller screens */
+    }
+}
+
+
+    #bar a {         
+        margin: 10px 0;
+     }
+    
+.noprint {
+    background: linear-gradient(90deg, rgba(63, 241, 238, 1) 0%, rgba(221, 81, 81, 1) 65%, rgba(62, 51, 249, 1) 100%);
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    width: 100%;
+    padding: 23px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Media query for screens with a maximum width of 600 pixels */
+@media only screen and (max-width: 600px) {
+    .noprint {
+        padding: 15px; /* Adjust padding for better spacing on smaller screens */
+    }
+}
+
+    
