@@ -1,125 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="Logo.jpg">
-    <title>Result-Sheet-2080</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Under Construction - Somya Kumar Jha</title>
+  <link rel="shortcut icon" href="Logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-<style>
-    /* width */
-    ::-webkit-scrollbar {
-      width: 10px;
-      border-radius: 7px;
-    }
-    
-    /* Track */
-    ::-webkit-scrollbar-track {
-      background: #f1f1f1; 
-      border-radius: 7px;
-    }
-     
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-      background: #888; 
-      border-radius: 7px;
-    }
-    
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-      background: #555; 
-      border-radius: 7px;
-    }
-</style>
-
-<body class="font-sans bg-gradient-to-r from-blue-300 to-gray-300 min-h-screen">
-    <header class="text-center bg-gradient-to-r from-teal-300 to-red-500 text-black-500 text-xl p-1 shadow-md transition duration-300 hover:shadow-lg">
-        <div>
-            <p>Result-sheet</p>
-            <p class="text-black-500">Second Terminal Examination</p>
-            <p>2080</p>
-        </div>
-    </header>
-    <section class="mb-4">
-        <div class="flex justify-evenly cursor-pointer bg-gradient-to-r from-sky-200 to-blue-500 text-gray-700 p-4" onclick="toggleDarkBackground()">
-            <a href="#" class="hover:text-red-500">HOME</a>
-            <a href="index2.html" class="hover:text-red-500">GRADE SHEET</a>
-            <a href="about.html" class="hover:text-red-500">ABOUT</a>
-        </div>
-    </section>
-
-    <div class="max-w-4xl mx-auto bg-gradient-to-r from-white to-gray-200 text-gray-800 rounded-lg overflow-hidden shadow-lg mb-4">
-        <p class="text-center text-2xl py-4">Result:</p>
-        <div class="p-4">
-            <label for="name" class="block mb-2 text-sm text-gray-600">Symbol No:</label>
-            <input type="text" id="name" name="name" placeholder="e.g.00100200"
-                class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500 transition duration-300">
-            <button id="bt" type="button"
-                class="w-full bg-gradient-to-r from-blue-500 to-indigo-800 text-white py-2 px-4 mt-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:shadow-outline-blue transition duration-300" onclick="submitForm()">
-                Submit
-            </button>
-        </div>
+<body>
+  <div class="container">
+    <div class="construction-icon">
+      <i class="fas fa-hard-hat"></i>
     </div>
-
-    <!-- Result container -->
-    <div id="result-container" class="max-w-2xl mx-auto text-center text-2xl py-4"></div>
-
-    <div class="max-w-2xl mx-auto mb-4">
-        <div class="bg-gradient-to-r from-gray-100 to-gray-300 p-4 rounded-lg shadow-md">
-            <p class="text-red-500 text-lg">Instructions (for Web, SMS)</p>
-            <b>Webpage:</b>
-            <br>
-            Type your symbol number (Example: 0201382) in the input box above and click submit. Your result will
-            appear on the screen.
-            <br>
-            <br>
-            <b>SMS:</b>
-            <br>
-            Type see<space>symbolNumber and send SMS to 0000 Example: Type 0201382D and send it to 0000
-        </div>
-    </div>
-
-    <div class="text-center bg-gradient-to-r from-teal-300 to-red-500 text-black-500 text-black-500 text-center p-4">
-        <div class="mb-4">
-            <img src="Logo-removebg-preview.png" alt="Somya Logo" class="mx-auto h-auto max-h-24 mb-4">
-        </div>
-        <p class="text-sm">&copy; Copyright Somya Jha-2024 <br> All Rights Reserved<br />
-
-        </p>
-    </div>
-
-    <!-- JavaScript code -->
-    <script>
-        // Function to toggle dark background
-        function toggleDarkBackground() {
-            // Add your dark mode toggle logic here
-        }
-
-        // Function to handle form submission
-        function submitForm() {
-            // Get the symbol number from the input field
-            var symbolNo = document.getElementById('name').value;
-
-            // You can add validation logic here if needed
-
-            // Simulate a delay (you can replace this with an actual API call)
-            setTimeout(function () {
-                // Display the result in the result container
-                displayResult(symbolNo);
-            }, 1000); // 1 second delay (replace with your desired delay)
-        }
-
-        // Function to display the result dynamically
-        function displayResult(symbolNo) {
-            var resultContainer = document.getElementById('result-container');
-
-            var result = "Your result for Symbol No: " + symbolNo + " is: Pass";
-            resultContainer.innerHTML = result;
-        }
-    </script>
+    <h1>Under Construction</h1>
+    <p>Sorry, this page is currently under construction.<br>Check back soon!</p>
+  </div>
 </body>
-
 </html>
