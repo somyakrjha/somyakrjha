@@ -33,7 +33,7 @@ html {
 }
 
 body {
-    font-family: 'Inter', 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background: var(--body-color);
@@ -270,6 +270,7 @@ nav {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-weight: 600;
+    font-size: 300px;
 }
 
 .featured-text-info {
